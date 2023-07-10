@@ -25,7 +25,7 @@ public class SubArrayPrint {
       }
 
       public static void main(String args[]) {
-            int arr[] = { 2, 4, 5, 6, 7, 45 };
+            int arr[] = { 1, -2, 6, -1, 3 };
             printSubarr(arr);
       }
 }
