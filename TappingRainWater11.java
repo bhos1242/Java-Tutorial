@@ -11,6 +11,7 @@ public class TappingRainWater11 {
                   int right_max[] = new int[n];
                   int wt = 0;
 
+                  // Calculate left max boundary = array
                   left_max[0] = arr[0];
                   for (int i = 1; i < n; i++) {
                         left_max[i] = Math.max(left_max[i - 1], arr[i]);
