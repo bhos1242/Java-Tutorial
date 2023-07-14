@@ -26,5 +26,6 @@ public class BinomialCoefficient {
             int BinomialCoefficient = binCoeff(n, r);
 
             System.out.println(BinomialCoefficient);
+            sc.close();
       }
 }
